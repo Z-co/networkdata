@@ -1,0 +1,5 @@
+importFrom(utils, packageDescription)
+importFrom(network)
+importFrom(sna)
+# Export all names that do not begin with a dot.
+exportPattern("^[^\\.]")
